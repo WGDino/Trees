@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:fillViewport="true">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/my_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            android:elevation="4dp"
+            android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+            app:layout_constraintTop_toTopOf="parent"
+            app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toTopOf="@+id/imageView3"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.171"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.753"
+            app:srcCompat="@drawable/yellow" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="52dp"
+            android:layout_height="63dp"
+            android:layout_marginBottom="64dp"
+            app:layout_constraintBottom_toTopOf="@+id/imageView4"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.169"
+            app:layout_constraintStart_toStartOf="parent"
+            app:srcCompat="@drawable/greenmarker" />
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="52dp"
+            android:layout_height="67dp"
+            android:layout_marginBottom="112dp"
+            app:layout_constraintBottom_toTopOf="@+id/imageView5"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.171"
+            app:layout_constraintStart_toStartOf="parent"
+            app:srcCompat="@drawable/red" />
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="108dp"
+            app:layout_constraintBottom_toTopOf="@+id/imageView6"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.2"
+            app:layout_constraintStart_toStartOf="parent"
+            app:srcCompat="@drawable/tr_d" />
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="67dp"
+            android:layout_height="60dp"
+            android:layout_marginBottom="64dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.157"
+            app:layout_constraintStart_toStartOf="parent"
+            app:srcCompat="@drawable/baseline_inventory_24" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="220dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="88dp"
+            android:text="@string/din_position"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toTopOf="@+id/textView4"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.411"
+            app:layout_constraintStart_toEndOf="@+id/imageView2"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.528" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="219dp"
+            android:layout_height="31dp"
+            android:layout_marginBottom="104dp"
+            android:text="@string/f_ngat_tr_d"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toTopOf="@+id/textView5"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.333"
+            app:layout_constraintStart_toEndOf="@+id/imageView3" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="211dp"
+            android:layout_height="26dp"
+            android:layout_marginBottom="148dp"
+            android:text="@string/icke_f_ngat_tr_d"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toTopOf="@+id/textView6"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.307"
+            app:layout_constraintStart_toEndOf="@+id/imageView4" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="180dp"
+            android:layout_height="54dp"
+            android:layout_marginBottom="120dp"
+            android:text="@string/klicka_f_r_att_f_nga_tr_d"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toTopOf="@+id/textView7"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.223"
+            app:layout_constraintStart_toEndOf="@+id/imageView5" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="229dp"
+            android:layout_height="37dp"
+            android:layout_marginBottom="76dp"
+            android:text="@string/statistik_f_r_f_ngade_tr_d"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.401"
+            app:layout_constraintStart_toEndOf="@+id/imageView6" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

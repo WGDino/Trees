@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <!-- "Mark Favorite", must appear as action button if possible. -->
+    <item
+        android:id="@+id/treeDex"
+        android:icon="@drawable/baseline_inventory_24"
+        android:title="@string/treedex"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/award"
+    android:icon="@drawable/baseline_military_tech_24"
+    android:title="@string/awards"
+    app:showAsAction="ifRoom"/>
+
+    <item android:id="@+id/help"
+        android:title="@string/hj_lp"
+        app:showAsAction="never"/>
+
+    <item android:id="@+id/action_settings"
+        android:title="@string/inst_llningar"
+        app:showAsAction="never"/>
+</menu>
